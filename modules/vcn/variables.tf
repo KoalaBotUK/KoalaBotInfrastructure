@@ -1,8 +1,8 @@
 
 variable "cidr_block" {
-  type = string
+  type        = string
   description = "CIDR block of the VCN"
-  default = "10.0.0.0/16"
+  default     = "10.0.0.0/16"
 }
 
 
@@ -13,7 +13,7 @@ variable "env" {
 
 
 variable "compartment_ocid" {
-  type = string
+  type        = string
   description = "The compartment to deploy the instance in"
 }
 

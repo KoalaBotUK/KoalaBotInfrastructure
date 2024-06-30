@@ -10,27 +10,27 @@ variable "availability_domain" {
 }
 
 variable "subnet_id" {
-  type = string
+  type        = string
   description = "Subnet ID to deploy the instance in"
 }
 
 variable "mariadb_user" {
-  type = string
+  type        = string
   description = "MariaDB user"
 }
 
 variable "mariadb_password" {
-  type = string
+  type        = string
   description = "MariaDB password"
 }
 
 variable "mariadb_database" {
-  type = string
+  type        = string
   description = "MariaDB database"
 }
 
 variable "compartment_ocid" {
-  type = string
+  type        = string
   description = "The compartment to deploy the instance in"
 }
 
@@ -40,51 +40,51 @@ variable "env" {
 }
 
 variable "compute_shape" {
-  type = string
+  type        = string
   description = "Compute shape to use for the instance"
 }
 
 variable "run_koala" {
-  type = bool
+  type        = bool
   description = "Whether to run the Koala bot"
 }
 
 variable "bot_owner" {
-  type = string
+  type        = string
   description = "The owner of the bot"
 }
 
 variable "discord_token" {
-  type = string
+  type        = string
   description = "The bot token"
 }
 
 variable "encrypted" {
-  type = bool
+  type        = bool
   description = "Whether to encrypt the database"
 }
 
 variable "gmail_email" {
-  type = string
+  type        = string
   description = "The Gmail email"
 }
 
 variable "gmail_password" {
-  type = string
+  type        = string
   description = "The Gmail password"
 }
 
 variable "sqlite_key" {
-  type = string
+  type        = string
   description = "The SQLite key"
 }
 
 variable "twitch_secret" {
-  type = string
+  type        = string
   description = "The Twitch secret"
 }
 
 variable "twitch_token" {
-  type = string
+  type        = string
   description = "The Twitch token"
 }
